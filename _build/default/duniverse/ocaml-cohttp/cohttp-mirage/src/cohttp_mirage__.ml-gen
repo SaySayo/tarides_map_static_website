@@ -1,0 +1,18 @@
+(** @canonical Cohttp_mirage.Client *)
+module Client = Cohttp_mirage__Client
+
+
+(** @canonical Cohttp_mirage.Io *)
+module Io = Cohttp_mirage__Io
+
+
+(** @canonical Cohttp_mirage.Make *)
+module Make = Cohttp_mirage__Make
+
+
+(** @canonical Cohttp_mirage.Server *)
+module Server = Cohttp_mirage__Server
+
+
+(** @canonical Cohttp_mirage.Static *)
+module Static = Cohttp_mirage__Static

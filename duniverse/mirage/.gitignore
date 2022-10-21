@@ -1,0 +1,11 @@
+_build
+*~
+\.\#*
+\#*#
+*.native
+*.byte
+*.install
+_tests/
+.merlin
+_opam
+.DS_Store

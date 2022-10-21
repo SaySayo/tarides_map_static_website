@@ -1,0 +1,6 @@
+(** @canonical Dune__exe.Pp *)
+module Pp = Dune__exe__Pp
+
+
+(** @canonical Dune__exe.Pp_rewrite *)
+module Pp_rewrite = Dune__exe__Pp_rewrite

@@ -1,0 +1,10 @@
+(** @canonical Unix_os.Lifecycle *)
+module Lifecycle = Unix_os__Lifecycle
+
+
+(** @canonical Unix_os.Main *)
+module Main = Unix_os__Main
+
+
+(** @canonical Unix_os.Time *)
+module Time = Unix_os__Time

@@ -1,0 +1,18 @@
+(** @canonical Dune__exe.Dispatch *)
+module Dispatch = Dune__exe__Dispatch
+
+
+(** @canonical Dune__exe.Key_gen *)
+module Key_gen = Dune__exe__Key_gen
+
+
+(** @canonical Dune__exe.Main *)
+module Main = Dune__exe__Main
+
+
+(** @canonical Dune__exe.Static_htdocs *)
+module Static_htdocs = Dune__exe__Static_htdocs
+
+
+(** @canonical Dune__exe.Static_tls *)
+module Static_tls = Dune__exe__Static_tls

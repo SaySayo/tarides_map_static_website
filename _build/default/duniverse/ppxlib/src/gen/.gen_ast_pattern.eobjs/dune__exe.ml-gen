@@ -1,0 +1,10 @@
+(** @canonical Dune__exe.Gen_ast_builder *)
+module Gen_ast_builder = Dune__exe__Gen_ast_builder
+
+
+(** @canonical Dune__exe.Gen_ast_pattern *)
+module Gen_ast_pattern = Dune__exe__Gen_ast_pattern
+
+
+(** @canonical Dune__exe.Import *)
+module Import = Dune__exe__Import

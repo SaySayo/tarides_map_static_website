@@ -1,0 +1,13 @@
+(executable
+ (name config)
+ (modules config)
+ (libraries mirage))
+
+(executable
+ (name config_dash_in_name)
+ (modules config_dash_in_name)
+ (libraries mirage))
+
+(cram
+ (package mirage)
+ (deps config.exe config_dash_in_name.exe))

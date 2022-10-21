@@ -1,0 +1,8 @@
+(executable
+ (name map)
+ (libraries leaflet js_of_ocaml brr)
+ (modes js)
+ (preprocess
+  (pps js_of_ocaml-ppx)))
+
+

@@ -1,0 +1,12 @@
+(library
+ (public_name mirage.key)
+ (name mirage_key)
+ (wrapped false)
+ (libraries ipaddr logs astring functoria mirage-runtime bos)
+ (modules mirage_key))
+
+(library
+ (public_name mirage)
+ (wrapped false)
+ (libraries mirage.impl mirage.target)
+ (modules :standard \ mirage_key))

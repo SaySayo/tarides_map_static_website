@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarides Map</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+      integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+      crossorigin=""
+    />
+
+    <script
+      src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js">
+    </script>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css" media=”screen” /> -->
+    <style>
+        #info {
+            width: 100%;
+            height: 100vh;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+    
+  </head>
+  <body>
+    <div id="info">
+        <h1>Tarides Map</h1>
+        <p>This projects intends to show the locations of all Tarides's employees and collaborators around the world </p>
+    </div>
+    <div id="map"></div>
+  </body>
+</html>
+
+<script src="point.js"></script>
+
+<script src="map.bc.js"></script>

@@ -1,0 +1,26 @@
+(** @canonical Vchan.Endpoint *)
+module Endpoint = Vchan__Endpoint
+
+
+(** @canonical Vchan.In_memory *)
+module In_memory = Vchan__In_memory
+
+
+(** @canonical Vchan.In_memory_events *)
+module In_memory_events = Vchan__In_memory_events
+
+
+(** @canonical Vchan.Location *)
+module Location = Vchan__Location
+
+
+(** @canonical Vchan.Port *)
+module Port = Vchan__Port
+
+
+(** @canonical Vchan.S *)
+module S = Vchan__S
+
+
+(** @canonical Vchan.Xenstore *)
+module Xenstore = Vchan__Xenstore
